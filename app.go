@@ -1,7 +1,7 @@
 package main
 
 import (
-    "fake-dns/core"
+    "fake-ns/core"
     "flag"
     "os"
 )
