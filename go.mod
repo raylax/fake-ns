@@ -1,4 +1,4 @@
-module fake-dns
+module fake-ns
 
 go 1.16
 
