@@ -61,7 +61,7 @@ func (handler *handler) handleTypeA(q dns.Question) dns.RR {
 		return nil
 	}
 	return &dns.A{
-		Hdr: dns.RR_Header{Name: q.Name, Rrtype: dns.TypeA, Class: dns.ClassINET, Ttl: 60},
+		Hdr: dns.RR_Header{Name: q.Name, Rrtype: dns.TypeA, Class: dns.ClassINET, Ttl: 86400},
 		A:   ip,
 	}
 }
